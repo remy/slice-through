@@ -1,6 +1,6 @@
 {
   "name": "slice-through",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "array.slice methods for streams (using through)",
   "main": "index.js",
   "scripts": {
