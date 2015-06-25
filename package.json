@@ -1,0 +1,24 @@
+{
+  "name": "slice-through",
+  "version": "1.0.0",
+  "description": "array.slice methods for streams (using through)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.test.js | tap-spec"
+  },
+  "keywords": [
+    "stream",
+    "slice",
+    "through"
+  ],
+  "author": "Remy Sharp",
+  "license": "MIT",
+  "dependencies": {
+    "through": "^2.3.7"
+  },
+  "devDependencies": {
+    "JSONStream": "^1.0.4",
+    "tap-spec": "^4.0.2",
+    "tape": "^4.0.0"
+  }
+}
