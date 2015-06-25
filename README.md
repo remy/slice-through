@@ -1,4 +1,4 @@
-# through-slice
+# slice-through
 
 Like `Array.prototype.slice` but for streams (using the [through](https://www.npmjs.com/package/through) module). Given a `start` and optionally an `end` value it will return a through stream that emits the `data` event when elements match the slice range.
 
@@ -28,5 +28,5 @@ curl --silent https://api.github.com/repos/octocat/Hello-World/issues | node dem
 ## Installation
 
 ```shell
-npm install --save through-slice
+npm install --save slice-through
 ```
